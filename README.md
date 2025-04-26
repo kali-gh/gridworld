@@ -23,7 +23,27 @@ Algorithms are implemented procedurally in files, using those objects.
 - Value iteration : run_value_iteration.py using helpers in libs.py
 - Q-learning: run_q_learning.py using helpers in libs.py
 
+### Set up
+
+```
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
 ### Testing
+
+To run value iteration
+
+```
+python run_value_iteration.py
+```
+
+To run q-learning
+
+```
+python run_q_learning.py
+```
 
 The code was tested as shown in test_run_q_learning.ipynb and test_run_value_iteration.ipynb.
 
