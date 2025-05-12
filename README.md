@@ -45,7 +45,7 @@ To run q-learning
 python run_q_learning.py
 ```
 
-The code was tested as shown in test_run_q_learning.py and test_run_value_iteration.py.
+The code was tested as shown in run_q_learning.py and run_value_iteration.py.
 
 - Value Iteration: The value iteration appears to match closely with Sutton & Barto's development. The learned policy matches the optimal policy found by Sutton and Barto. Note that we fix the random policy the whole way rather than update which might explain small differences in the value function at each iteration.
 - Q-Learning: The learned policy matches closely with Sutton and Barto, except in states 6 and 9 where the optimal policy is random. This needs more investigation, otherwise the policy matches the optimal policy as reported in Sutton and Barto.
